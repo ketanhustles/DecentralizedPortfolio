@@ -1,99 +1,42 @@
-# Decentralize Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decentralized Portfolio</title>
+</head>
+<body>
 
-Decentralize Portfolio is a decentralized application (DApp) built on the Ethereum blockchain that allows users to create and manage their digital portfolios. This project aims to provide a secure, transparent, and censorship-resistant platform for individuals to showcase their work and accomplishments.
+  <h1>Decentralized Portfolio</h1>
+  
+  <p>A decentralized application (DApp) built on Ethereum to allow users to create and manage their digital portfolios. This platform is designed to be secure, transparent, and censorship-resistant for showcasing professional accomplishments.</p>
 
-## Features
+  <h2>Features</h2>
+  <ul>
+    <li><strong>Portfolio Creation:</strong> Add projects, skills, education, and experience to a decentralized profile.</li>
+    <li><strong>Project Showcase:</strong> Display project descriptions, images, and links.</li>
+    <li><strong>Decentralized Storage:</strong> Portfolio data stored on Ethereum, ensuring integrity and immutability.</li>
+    <li><strong>Metamask Integration:</strong> Connect Ethereum wallets for easy access.</li>
+  </ul>
 
-- **Portfolio Creation**: Users can create their digital portfolios by adding details about their projects, skills, education, experience, and more.
-- **Project Showcase**: Users can showcase their projects, including descriptions, images, links, and other relevant information.
-- **Skills and Experience**: Users can highlight their skills and experience in their portfolios.
-- **Education and Certifications**: Users can add details about their education background and certifications.
-- **Decentralized Storage**: The portfolio data is stored on the Ethereum blockchain, ensuring data integrity, immutability, and resistance to censorship.
-- **Metamask Integration**: Users can connect their Ethereum wallets using Metamask to interact with the DApp on desktop as well as mobile.
+  <h2>Tech Stack</h2>
+  <ul>
+    <li><strong>Frontend:</strong> React.js</li>
+    <li><strong>Smart Contracts:</strong> Solidity</li>
+    <li><strong>Blockchain Interaction:</strong> Web3.js</li>
+    <li><strong>Decentralized Storage:</strong> IPFS</li>
+  </ul>
 
-## Installation
+  <h2>Getting Started</h2>
+  <ol>
+    <li>Clone the repository.</li>
+    <li>Install dependencies using <code>npm install</code> in both client and contract directories.</li>
+    <li>Deploy the smart contracts to a testnet and configure addresses in the frontend.</li>
+    <li>Run the client with <code>npm start</code> and access via <code>http://localhost:3000</code>.</li>
+  </ol>
 
-### For Starter Project
+  <h2>License</h2>
+  <p>This project is licensed under the MIT License.</p>
 
-To run the Decentralize Portfolio starter project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/kshitijofficial/Decentralize-Portfolio.git
-   ```
-
-2. Navigate to the starterCode directory:
-
-   ```bash
-   cd Decentralize-Portfolio/starterCode
-   ```
-
-3. Navigate to the client directory:
-
-   ```bash
-   cd client
-   ```
-
-4. Install the required dependencies:
-
-   ```bash
-   npm install
-   ```
-
-5. To run the application:
-
-   ```bash
-   npm run dev
-   ```
-
-6. Open your browser and visit `http://localhost:5173` to access the Decentralize Portfolio starter application.
-
-### For Final Project
-
-To run the Decentralize Portfolio final project locally, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/kshitijofficial/Decentralize-Portfolio.git
-   ```
-
-2. Navigate to the finalCode directory:
-
-   ```bash
-   cd Decentralize-Portfolio/finalCode
-   ```
-
-3. Navigate to the client directory:
-
-   ```bash
-   cd client
-   ```
-
-4. Install the required dependencies:
-
-   ```bash
-   npm install
-   ```
-
-5. To run the application:
-
-   ```bash
-   npm run dev
-   ```
-
-6. Open your browser and visit `http://localhost:5173` to access the Decentralize Portfolio final application.
-
-**Note:** For the final project, make sure to click on the "Connect Metamask" button and use the Polygon testnet network for interacting with the decentralized application.
-
-## Acknowledgements
-
-Decentralize Portfolio is built using the following technologies:
-
-- [Solidity](https://docs.soliditylang.org/) - The smart contract programming language for Ethereum.
-- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-- [Hardhat](https://hardhat.org/) - Development environment for Ethereum smart contracts.
-- [IPFS](https://ipfs.io/) - Decentralized storage for portfolio data.
-- [Web3.js](https://web3js.readthedocs.io/) - JavaScript library for interacting with Ethereum.
-- [Metamask](https://metamask.io/) - Cryptocurrency Wallet
+</body>
+</html>
